@@ -1,15 +1,29 @@
+/*
+    font-family: 'Zilla Slab', serif;
+
+    font-family: 'Bellefair', serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Cairo', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+*/
 body {
-  background-color: #001f3f !important;
+  background-color: #FF4136 !important;
+}
+.title {
+  font-family: 'Zilla Slab', serif;
+  color: #FFFFFF;
 }
 .title__head {
     font-size: 6rem;
     font-weight: 400;
+    text-shadow: 1px 1px #85144b;
 
   }
 .title__subtitle {
     font-size: 4rem;
-
-  }
-.title h1{
-    margin-left: 1px;
+    color: #85144b;
+    font-family: 'Cairo', sans-serif;
   }

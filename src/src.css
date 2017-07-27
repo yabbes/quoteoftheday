@@ -1,19 +1,31 @@
 @import "_variables";
+/*
+    font-family: 'Zilla Slab', serif;
+
+    font-family: 'Bellefair', serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Cairo', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+*/
 
 body {
-  background-color: $navy !important;
+  background-color: $red !important;
 }
 .title {
+  font-family: 'Zilla Slab', serif;
+  color: $white;
   &__head {
     font-size: 6rem;
     font-weight: 400;
+    text-shadow: 1px 1px $maroon;
 
   }
   &__subtitle {
     font-size: 4rem;
-
-  }
-  h1{
-    margin-left: 1px;
+    color: $maroon;
+    font-family: 'Cairo', sans-serif;
   }
 }
