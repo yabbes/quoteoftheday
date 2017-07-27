@@ -4,6 +4,7 @@ postcss = require('gulp-postcss'),
 cssvars = require('postcss-simple-vars'),
 nested = require('postcss-nested'),
 cssImport = require('postcss-import'),
+colorFunc = require('postcss-color-function'),
 browserSync = require('browser-sync');
 
 gulp.task('default', () => {
@@ -36,7 +37,7 @@ gulp.task('cssInject', ['styles'], () => {
 
 gulp.task('styles', () => {
   return gulp.src('./src/src.css')
-  .pipe(postcss([cssImport, cssvars, nested]))
+  .pipe(postcss([cssImport, cssvars, colorFunc, nested]))
   .on('error', (err) => {
     console.log(err.toString());
     this.emit('end');

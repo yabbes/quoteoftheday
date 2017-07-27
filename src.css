@@ -24,6 +24,29 @@ body {
   }
 .title__subtitle {
     font-size: 4rem;
-    color: #85144b;
+    color: rgb(51, 57, 64);
     font-family: 'Cairo', sans-serif;
   }
+.controlbox .btn {
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 3rem;
+  }
+.controlbox .btn:hover{
+    background-color: rgb(255, 134, 128);
+
+  }
+.controlbox .btn:active .btn:visited .btn:after{
+    background-color: rgb(255, 134, 128)!important;
+  }
+.quotebox {
+  margin-top: 2em;
+}
+.quotebox #quoteAuthor{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-color: #111111;
+  }
+.footer {
+  margin-top: 1em;
+}

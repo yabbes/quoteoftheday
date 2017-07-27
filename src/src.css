@@ -25,7 +25,36 @@ body {
   }
   &__subtitle {
     font-size: 4rem;
-    color: $maroon;
+    color: color($navy whiteness(20%));
     font-family: 'Cairo', sans-serif;
   }
+}
+
+.controlbox {
+  .btn {
+    background-color: $white;
+    border: none;
+    font-size: 3rem;
+  }
+  .btn:hover{
+    background-color: color($red whiteness(50%));
+
+  }
+  .btn:active .btn:visited .btn:after{
+    background-color: color($red whiteness(50%))!important;
+  }
+}
+
+.quotebox {
+  margin-top: 2em;
+
+  #quoteAuthor{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-color: $black;
+  }
+}
+
+.footer {
+  margin-top: 1em;
 }
