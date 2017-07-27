@@ -46,7 +46,8 @@ body {
 }
 
 .quotebox {
-  margin-top: 2em;
+  margin-top: 1.4em;
+  font-size: 3rem;
 
   #quoteAuthor{
     font-family: 'Playfair Display', serif;
