@@ -1,0 +1,19 @@
+@import "_variables";
+
+body {
+  background-color: $navy !important;
+}
+.title {
+  &__head {
+    font-size: 6rem;
+    font-weight: 400;
+
+  }
+  &__subtitle {
+    font-size: 4rem;
+
+  }
+  h1{
+    margin-left: 1px;
+  }
+}

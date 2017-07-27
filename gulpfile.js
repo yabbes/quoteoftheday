@@ -11,18 +11,26 @@ gulp.task('default', () => {
     browserSync.reload();
     console.log('HTML changed, browser-sync reload');
   });
+});
 
-  watch('./**/*.css', () => {
+gulp.task('watch', () => {
+  watch('./*.html', () => {
+    browserSync.reload();
+    console.log('HTML changed, browser-sync reload');
+  });
+
+  watch('./src/*.css', () => {
     gulp.start('cssInject');
   });
 
   browserSync.init({
     server: './'
+
   });
 });
 
 gulp.task('cssInject', ['styles'], () => {
-  return gulp.src('./styles.css')
+  return gulp.src('./src.css')
   .pipe(browserSync.stream());
 });
 
@@ -32,5 +40,5 @@ gulp.task('styles', () => {
   .on('error', (err) => {
     console.log(err.toString());
     this.emit('end');
-  }).pipe(gulp.dest('./styles.css'));
+  }).pipe(gulp.dest('./'));
 });

@@ -1,0 +1,15 @@
+body {
+  background-color: #001f3f !important;
+}
+.title__head {
+    font-size: 6rem;
+    font-weight: 400;
+
+  }
+.title__subtitle {
+    font-size: 4rem;
+
+  }
+.title h1{
+    margin-left: 1px;
+  }
