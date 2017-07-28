@@ -25,7 +25,7 @@ body {
   }
   &__subtitle {
     font-size: 4rem;
-    color: color($navy2 whiteness(20%));
+    color: color($navy whiteness(20%));
     font-family: 'Cairo', sans-serif;
   }
 }
