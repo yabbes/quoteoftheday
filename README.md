@@ -9,7 +9,7 @@ The quotes are retrieved via a simple Ajax request to the free API of [Quotes on
 
 Made this to get a true mobile first design up and running here. The only update I still want to make is when I know how to hide the browser statusbar :-P
 
-http://yabbes.hopto.org/quotes/
+http://www.etbim.de/quote/
 
 #### Mobile first progressive web app
 The project makes full use of [Google's guidelines](https://developers.google.com/web/fundamentals/native-hardware/fullscreen/) for designing a website as a progressive web app. There is a manifest.json file and you can add the app to your home screen.
